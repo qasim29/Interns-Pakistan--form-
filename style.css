@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-container .fa-weibo {
+    color: aliceblue;
+    font-size: 50px;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color:#589ED9;
+}
+h1{
+    color: aliceblue;
+    font-size:x-large;    
+}
+p{
+    color: aliceblue;
+    font-size: x-small;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-small;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red ; */
+}
+.form-container{
+    width: 30%;
+    height: 150px;
+    /* border: 2px solid red ; */
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+input{
+    padding: 12px;
+    font-size: 12px;
+    width: 100%;
+    border-width: 0ch;
+}
+form div{
+    border:1px solid #ccc; 
+    border-radius: 5px; 
+}
+input[type=text]{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom:1px solid #ccc; 
+}
+input[type=password]{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+input[type=submit]{
+    margin:0px;
+    margin-top:10px;
+    border:1px solid #2186D4;
+    background-color:  #2186D4; 
+    border-radius: 5px; 
+    font-weight: bold;
+    color: aliceblue;
+}
+
